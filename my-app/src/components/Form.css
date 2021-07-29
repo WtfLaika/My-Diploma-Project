@@ -1,0 +1,91 @@
+.btn-clear-grey {
+    padding: 15px 47px 15px 30px;
+    width: 105%;
+    text-align: left;
+    letter-spacing: 0.07rem;
+    background: none;
+    border: 2px solid;
+    border-color: #9AB4C7;
+    color: black;
+    border-radius: 38px;
+    font-size: 1.563rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    outline:none;
+    margin-bottom: 20px;
+}
+
+.btn-clear-grey::placeholder{
+    color:#BCCAD2;
+}
+
+.error{
+    margin-bottom: 10px;
+    color:red;
+    text-align: center;
+    width: 145%;
+}
+
+.left-application{
+    width: 138%;
+    padding: 15px 55px;
+    color: white;
+    background: #0066FF;
+    border:none;
+    border-radius: 38px;
+    font-size: 1.563rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.left-application:disabled{
+    background-color: #BCCAD2;
+}
+
+
+.left-application:hover{
+    background-color:#5796F4;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:1480px){
+    .btn-clear-grey {
+        padding: 5px 47px 5px 30px !important;
+        width: 96%;
+    }
+    .left-application{
+        width: 142%;
+        padding: 5px 35px;
+      
+    }
+    .user-field{
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .btn-clear-grey {
+        padding:5px 40px 5px 15px !important;
+        width: 96%;
+    }
+    .left-application{
+        width: 152%;
+        padding: 5px 12px;
+    }
+}
+
+@media only screen and (max-width:412px){
+    .btn-clear-grey {
+        padding:5px 10px 5px 10px !important;
+        width: 80%;
+    }
+    .left-application{
+        width: 100%;
+        padding: 5px 11px;
+    }
+}

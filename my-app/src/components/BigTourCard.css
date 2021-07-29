@@ -1,0 +1,164 @@
+.big-tour-card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.tourCards-container {
+    width: 37.2%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 45px 60px;
+    transition: 0.5s;
+    border-radius: 38px;
+    background-size: cover;
+}
+
+.card-header-item:first-child {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.card-header-item:last-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-header {
+    margin-bottom: 270px;
+}
+
+.content-item {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.content-item>span {
+    display: block;
+}
+
+.arrow {
+    align-self: center;
+    width: 40px;
+    height: 20px
+}
+
+.arrow-container {
+    align-self: center;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.excourse-card-text, .review-card-text {
+    align-self: center;
+}
+
+.excourse-card-text {
+    width: 19.5%;
+    margin-left: 100px;
+}
+
+.review-card-text {
+    width: 29.5%;
+    order: -1;
+    margin-right: 100px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.63rem;
+    font-weight: bold;
+    line-height: 3.4rem;
+    margin-bottom: 33px;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-bottom: 51px;
+}
+
+@media only screen and (max-width:1480px) {
+    .card-header {
+        margin-bottom: 220px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .card-header {
+        margin-bottom: 170px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .excourse-card-text {
+        width: 23.5%;
+        margin-left: 5%;
+    }
+    .arrow {
+        align-self: start;
+        height: 20px;
+        width: 30px;
+    }
+    .review-card-text {
+        margin-right: 5%;
+    }
+    .card-header {
+        margin-bottom: 120px;
+    }
+}
+
+@media only screen and (max-width:412px) {
+    .card-header {
+        margin-bottom: 80px;
+    }
+    .arrow {
+        transform: scale(0.8);
+        align-self: flex-end !important;
+    }
+    .tourCards-container {
+        width: 37.2%;
+        background-position-x: 20%;
+        padding: 20px 30px;
+        height: 170px;
+    }
+    .card-content {
+        position: relative;
+        top: -3%;
+        align-items: flex-end;
+    }
+    .big-tour-card {
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+    .excourse-card-text {
+        width: 36%;
+    }
+    .title {
+        margin-bottom: 15px;
+    }
+    .subtitle{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .tourCards-container {
+        width: 37.2%;
+        background-position-x: 20%;
+        padding: 20px 30px;
+        height: 140px;
+    }
+    .card-header {
+        margin-bottom: 46px;
+    }
+    .review-container{
+        top: -17% !important;
+    }
+}

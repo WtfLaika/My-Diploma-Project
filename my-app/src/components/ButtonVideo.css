@@ -1,0 +1,138 @@
+.btn_container{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_text{
+    color: #D0BCAB;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.44rem;
+    width: 55%;
+    margin-left: 12px;
+}
+
+.video-button{
+    background-image: url('./img/icons/IconVideo2.png');
+    height: 75px;
+    width: 75px;
+}
+.video-button path,.video-button circle{
+    stroke: #D0BCAB;
+}
+
+.video-button:hover path,.video-button:hover circle{
+    stroke: white;
+    transition: 0.5s;
+}
+
+
+
+.video-button:hover{
+    background-image: url("./img/icons/iconVideo.png");
+    transition: 0.5s;
+}
+.container-video{
+    position: absolute;
+    left: 40%;
+    top:20%;
+}
+
+
+
+.exit{
+    position: relative;
+    left: 101.8%;
+    background:none;
+    border: none;
+    color:white;
+    font-size: 1.85rem;
+    font-weight: bold;
+}
+
+.video-button,.exit{
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 1480px){
+    .video-button{
+        background-image: url('./img/icons/IconVideo2.png');
+        transform: scale(0.75);
+        
+    }
+    .btn_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn_container{
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+    }
+    .btn_text{
+        color: #D0BCAB;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.44rem;
+        width: 120px;
+        padding-top: 5%;
+        margin-left: 5px;
+        
+    }
+    
+  }
+  @media only screen and (max-width : 1024px){
+    .container-video{
+        left: 30%;
+        top:20%;
+    }
+    .myVideo{
+        height: 300px !important;
+        width: 400px !important;
+    }
+  }
+
+  @media only screen and (max-width : 768px){
+    .btn_text{
+        width: 90px;
+        padding-top: 10%;
+    }
+  }
+
+  @media only screen and (max-width : 412px){
+    .video-button{
+        transform: scale(0.55);
+        
+    }
+    .btn_text {
+        width: 50px;
+        padding-top: 14% ;
+        position: relative;
+        left: -12%;
+    }
+    .btn_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-left: -20%;
+    }
+    .myVideo{
+        height: 200px !important;
+        width: 300px !important;
+    }
+    .container-video{
+        left: 20%;
+        top:20%;
+    }
+   
+  }
+
+  @media only screen and (max-width : 376px){
+    .myVideo{
+        height: 200px !important;
+        width: 300px !important;
+    }
+    .container-video{
+        left: 10%;
+    }
+    
+  }

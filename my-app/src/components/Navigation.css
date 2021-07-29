@@ -1,0 +1,85 @@
+.nav{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.myIcon{
+    height: 45px;
+}
+
+.nav_btn{
+    height: 38px;
+    align-self: center;
+    cursor: pointer;    
+}
+
+.nav_main{
+    margin-left: 25%;
+    display: flex;
+    width: 30.4%;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.56rem;
+    align-self: center;
+    
+}
+
+.nav_main-item{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_main-item:hover{
+    color:#F2CE72;
+    transition: 0.5s;
+
+}
+@media only screen and (max-width : 1600px){
+    .myIcon{
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:1480px){
+    .nav_main{
+        width: 40.4%;
+      
+        
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .nav_main{
+        margin-left: 22%;
+        
+    }
+    .myIcon{
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .nav_main{
+       width: 45%;
+        
+    }
+    .myIcon{
+        height: 30px;
+    }
+}
+
+
+@media only screen and (max-width:412px){
+    .myIcon{
+        height: 20px !important;
+    }
+    .nav_main{
+        width: 55%;
+         
+     }
+     .nav_main{
+        margin-left: 15%;
+        
+    }
+}

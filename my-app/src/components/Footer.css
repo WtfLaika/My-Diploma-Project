@@ -1,0 +1,100 @@
+footer{
+   
+    padding: 40px 0px 60px 10.5%;
+    background-color: #F7F7F7;
+}
+
+.footer-container{
+    display: flex;
+    width: 93%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.footer-container  a{
+    color:#738999;
+    text-decoration: none;
+}
+.conf-inf{
+    width: 13%;
+    margin-right: 15.3%;
+}
+.conf-inf:hover{
+    transition: 0.5s;
+    color: #0066FF;
+    text-decoration: underline;
+}
+
+
+.data-proc{
+    width: 19%;
+    margin-right: 40%;
+}
+.data-proc:hover{
+    transition: 0.5s;
+    color: #0066FF;
+    text-decoration: underline;
+}
+.social-sites{
+    align-self: center;
+    justify-self: flex-end;
+}
+
+@media only screen and (max-width:1024px) {
+    data-proc {
+        width: 21%;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width:1024px){
+    footer{
+   
+        padding: 20px 0px 30px 5.5%;
+    }
+    .data-proc{
+        width: 26%;
+        margin-right: 28%;
+    }
+}
+
+@media only screen and (max-width:412px){
+    footer{
+   
+        padding: 20px 0px 10px 5.5%;
+    }
+    .data-proc{
+        width: 40%;
+        margin-right: 2%;
+    }
+    .footer-container > .social-sites{
+        position: relative;
+        top: -28px;
+    }
+}
+
+@media only screen and (max-width:376px){
+    .footer-container{
+        width: 96%;
+    }
+    footer{
+   
+        padding: 20px 0px 10px 5.5%;
+    }
+    .conf-inf{
+        width: 17%;
+    }
+    .data-proc{
+        width: 40%;
+        margin-right: 2%;
+    }
+    .footer-container > .social-sites{
+        position: relative;
+        top: -28px;
+    }
+
+}
+

@@ -1,0 +1,73 @@
+.btn-clear-blue{
+    background: none;
+    border: 2px solid;
+    border-color: #0066FF;
+    color: #0066FF;
+    border-radius: 38px;
+    font-size: 1.563rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    padding: 15px 53px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.all-tour-item{
+    width: 30%;
+}
+.review-item{
+    width: 65%;
+}
+.btn-clear-blue:hover{
+    background-color:#0066FF;
+    transition: 0.5s;
+    color: white;
+    
+}
+
+@media only screen and (max-width : 1480px){
+    .btn-clear-blue{
+       
+        padding: 6px 53px;
+       
+    }
+    .review-item{
+        width: 75%;
+    }
+    
+}
+
+@media only screen and (max-width : 1280px){
+   
+    .arrow {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .btn-clear-blue{
+       
+        padding: 6px 37px;
+       
+    }
+    
+}
+
+@media only screen and (max-width : 412px){
+    .btn-clear-blue{
+       
+        padding: 6px 16px;;
+       
+    }
+    .all-tour-item{
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width : 412px){
+    .btn-clear-blue{
+       
+        padding: 6px 11px;;
+       
+    }
+}

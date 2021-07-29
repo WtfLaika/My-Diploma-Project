@@ -1,0 +1,91 @@
+.consultation-container {
+    margin: 0 auto;
+    background-image:url('./img/6.png');
+    padding: 88px 20% 145px 42%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.consultation-title{
+    width: 81%;
+    margin-right: 180px;
+
+}
+
+.consultation-subtitle{
+    width: 44%;
+    margin:0;
+    
+}
+
+.btn-clear-grey:first-child{
+    margin-bottom: 20px;
+}
+
+.btn-clear-grey:last-child{
+    margin-bottom: 30px;
+    padding: 15px 48px 15px 30px;
+}
+@media only screen and (max-width:1480px){
+    .consultation-title{
+        width: 81%;
+        margin-right: 130px;
+    }
+    .consultation-container {
+        justify-content: center;
+    }
+    .consultation-subtitle{
+        width: 47%;
+        
+    }
+    .consultation-text{
+        margin-left: 10%;
+    }
+    
+}
+
+@media only screen and (max-width:1280px){
+    .consultation-title{
+        width: 90%;
+        margin-right: 80px;
+    }
+    .consultation-subtitle{
+        width: 61%;
+        
+    }
+    .consultation-container {
+        justify-content: center;
+        background-position-x: 20%;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .consultation-title{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .consultation-text{
+        margin-left: 25%;
+    }
+    .consultation-container {
+        justify-content: center;
+        background-position-x: 25%;
+    }
+}
+
+
+@media only screen and (max-width:412px){
+    .consultation-container{
+        flex-direction: column;
+        padding: 40px 7% 40px 56%;
+        align-items: center;
+    }
+    .consultation-subtitle{
+        margin-bottom: 15px;
+    }
+      
+
+}
